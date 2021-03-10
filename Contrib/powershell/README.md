@@ -2,7 +2,7 @@
 
 # Introduction
 
-In the modules folder beneath this README you will find modules or links to 3rd Party modules created for the Barracuda WAF solutions. 
+In the modules folder beneath this README you will find modules or links to 3rd Party modules created for the Barracuda WAF and WAF-as-a-Service solutions. 
 
 This space will include details about how common DevOps practices/tools can be used with the Barracuda Web Applications Firewall product with primary focus on public cloud platforms like AWS and Microsoft Azure.
 
@@ -26,14 +26,12 @@ Import-Module -Name BarracudaVRS
 #Examples
 There are five examples here to get you started one that can be used to create a whitelist of IP's that can access a Application while blocking everything else and a second that demonstrates creating a new Application and running your first Vulnerability Scan
 
-# REST API
+# WAF REST API
+#### REST API v3.1
+https://campus.barracuda.com/product/webapplicationfirewall/api/
+
+# WAF-as-a-Service REST API
 ##### REST API v2
 https://api.waas.barracudanetworks.com/swagger/
-
-# Vulnerability Remediation Service
-## Powershell Module for connecting and triggering a new VRS Scan.
-
-
-
 
 ##### DISCLAIMER: ALL OF THE SOURCE CODE ON THIS REPOSITORY IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL BARRACUDA BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOURCE CODE. #####
